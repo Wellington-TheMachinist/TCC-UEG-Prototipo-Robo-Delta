@@ -34,19 +34,6 @@ Recomenda-se preservar os arquivos CAD nativos editáveis e, quando possível, d
 
 A tabela apresenta formatos sugeridos, não um inventário de arquivos já publicados. A disponibilidade dependerá dos materiais efetivamente incluídos neste diretório.
 
-## 4. Organização sugerida
-
-```text
-CAD/
-├── README.md
-├── Pecas/
-├── Subconjuntos/
-├── Montagem_Geral/
-├── Desenhos_Tecnicos/
-└── Formatos_Intercambio/
-```
-
-A estrutura poderá ser adaptada conforme a quantidade e a natureza dos arquivos disponibilizados. Recomenda-se identificar cada componente, sua revisão, unidade dimensional e, quando pertinente, material, processo de fabricação e tolerâncias.
 
 ## 5. Reprodução e fabricação
 
