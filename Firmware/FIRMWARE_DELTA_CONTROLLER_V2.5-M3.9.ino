@@ -9,9 +9,7 @@ HardwareSerial InterfaceSerial(2);
 
 
 // ============================================================
-// DELTA CONTROLLER V2.5.2-M3.7
-// M3.6: PAUSE/RESUME reversível + emergência física GPIO21 + HOME físico GPIO18 + RESET físico GPIO19.
-// A parada por ENA+/ENA- permanece independente do firmware.
+// DELTA CONTROLLER V2.5-M3.7
 // ARQUITETURA NÃO BLOQUEANTE + PROTOCOLO M2
 // ============================================================
 //
