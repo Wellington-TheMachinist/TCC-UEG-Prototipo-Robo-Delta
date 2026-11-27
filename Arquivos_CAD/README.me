@@ -1,1 +1,86 @@
 
+# Projeto Robô Delta — Arquivos CAD
+
+Este diretório destina-se à disponibilização dos arquivos de projeto mecânico do protótipo de robô paralelo Delta, desenvolvido como artefato educacional no âmbito de um Trabalho de Conclusão de Curso da Universidade Estadual de Goiás (UEG).
+
+## 1. Objetivos
+
+- Documentar a concepção mecânica do protótipo.
+- Facilitar o estudo da arquitetura Delta e de seus componentes.
+- Favorecer a reprodução, adaptação e evolução do projeto.
+- Apoiar atividades práticas de robótica, automação, modelagem tridimensional e fabricação.
+
+## 2. Conteúdo previsto
+
+Conforme forem disponibilizados, os arquivos poderão contemplar:
+
+- Modelos tridimensionais de peças e subconjuntos mecânicos;
+- Estrutura de sustentação e suportes de acionamento;
+- Braços, hastes, articulações e plataforma móvel;
+- Suportes de sensores e do efetuador final;
+- Montagem geral do manipulador;
+- Desenhos técnicos, dimensões e detalhes construtivos.
+
+## 3. Formatos de arquivos
+
+Recomenda-se preservar os arquivos CAD nativos editáveis e, quando possível, disponibilizar versões em formatos de intercâmbio.
+
+| Formato | Finalidade |
+| --- | --- |
+| CAD nativo | Edição do projeto original e preservação dos recursos de modelagem |
+| STEP (.step, .stp) | Intercâmbio de modelos sólidos entre sistemas CAD |
+| STL (.stl) | Representação em malha para visualização e eventual impressão 3D |
+| DXF (.dxf) | Intercâmbio de desenhos e perfis bidimensionais |
+| PDF (.pdf) | Consulta de desenhos técnicos e documentação dimensional |
+
+A tabela apresenta formatos sugeridos, não um inventário de arquivos já publicados. A disponibilidade dependerá dos materiais efetivamente incluídos neste diretório.
+
+## 4. Organização sugerida
+
+```text
+CAD/
+├── README.md
+├── Pecas/
+├── Subconjuntos/
+├── Montagem_Geral/
+├── Desenhos_Tecnicos/
+└── Formatos_Intercambio/
+```
+
+A estrutura poderá ser adaptada conforme a quantidade e a natureza dos arquivos disponibilizados. Recomenda-se identificar cada componente, sua revisão, unidade dimensional e, quando pertinente, material, processo de fabricação e tolerâncias.
+
+## 5. Reprodução e fabricação
+
+Antes de fabricar ou modificar componentes:
+
+1. Verifique as unidades e dimensões dos modelos.
+2. Confirme a compatibilidade entre peças, articulações, motores, elementos de fixação e demais componentes.
+3. Avalie materiais, tolerâncias, folgas e processos de fabricação adequados.
+4. Confira a geometria da montagem física e sua correspondência com os parâmetros do firmware.
+5. Realize verificações de interferência, resistência e segurança antes da operação.
+
+Os arquivos CAD não constituem, isoladamente, instruções completas de fabricação ou certificação de segurança. Consulte também a documentação eletrônica, o firmware e o software supervisório do projeto.
+
+## 6. Correspondência entre projeto e protótipo físico
+
+Os modelos CAD representam a geometria de projeto. Dimensões nominais podem diferir das dimensões efetivamente obtidas na fabricação e montagem.
+
+Durante a avaliação exploratória do protótipo, foram observadas divergências entre deslocamentos cartesianos comandados e movimentos físicos. Essas observações não estabelecem uma causa mecânica específica nem demonstram que os modelos CAD estejam incorretos. A reprodução do manipulador requer conferência dimensional, referenciamento e validação experimental da configuração construída.
+
+## 7. Finalidade educacional
+
+A disponibilização dos arquivos CAD busca apoiar o estudo da robótica paralela, da modelagem paramétrica, da integração eletromecânica e da relação entre geometria, cinemática e comportamento físico. Os modelos podem servir como ponto de partida para atividades de análise, reprodução e aperfeiçoamento do protótipo.
+
+## 8. Licenciamento e contribuições
+
+Propõe-se a adoção da **CERN Open Hardware Licence Version 2 — Permissive (CERN-OHL-P-2.0)** para os arquivos de projeto mecânico de autoria própria. Essa licença permite estudar, utilizar, modificar, fabricar e redistribuir projetos de hardware, inclusive para fins comerciais, observadas as condições do texto oficial.
+
+A adoção deverá ser formalizada pelo titular dos direitos mediante inclusão do texto integral da licença e dos avisos aplicáveis aos arquivos abrangidos. Até essa formalização, este README não constitui concessão de licença. Componentes e modelos de terceiros permanecem sujeitos às respectivas condições de utilização.
+
+Texto oficial: https://ohwr.org/cern_ohl_p_v2.txt
+
+Contribuições e propostas de aperfeiçoamento são bem-vindas. Recomenda-se documentar alterações geométricas, revisões e eventuais impactos sobre a montagem e a cinemática.
+
+## 9. Aviso de responsabilidade
+
+O projeto possui natureza experimental e educacional. A fabricação e utilização dos componentes exigem avaliação técnica e medidas de segurança adequadas. A disponibilização dos modelos não implica garantia de desempenho, resistência estrutural, precisão ou adequação a aplicações industriais.
