@@ -10,7 +10,7 @@ O ESP32 recebe comandos de uma aplicação supervisória, calcula a cinemática 
 
 ## 1. Arquivo principal e dependências
 
-- `ESP32_2_M3_9_SUPERVISORY_REARM.ino`: firmware principal.
+- `FIRMWARE_DELTA_V1.ino`: firmware principal.
 - Plataforma Arduino para ESP32 (Arduino core).
 - Biblioteca [FastAccelStepper](https://github.com/gin66/FastAccelStepper).
 - ESP32 compatível com a pinagem indicada, três drivers STEP/DIR, sensores de fim de curso, circuito de emergência e interfaces de acionamento da bomba e da válvula.
@@ -180,6 +180,14 @@ A disponibilização do código busca favorecer o estudo, a análise crítica e 
 
 ## 13. Licença e contribuição
 
-A licença de distribuição deverá ser definida pelo autor e incluída em um arquivo `LICENSE`. A disponibilização pública do código, por si só, não concede automaticamente permissões de modificação ou redistribuição. As dependências mantêm suas respectivas licenças.
+## 13. Licença e contribuição
 
-Sugestões de melhorias e relatos de problemas podem ser registrados na seção Issues do repositório, quando habilitada.
+Este firmware é disponibilizado sob os termos da licença MIT, permitindo sua livre utilização, reprodução, estudo, modificação e redistribuição, inclusive para fins acadêmicos, educacionais e comerciais, desde que sejam preservados os avisos de direitos autorais e os termos da licença.
+
+A disponibilização em código aberto tem como finalidade incentivar a disseminação do conhecimento, a reprodutibilidade científica, a aprendizagem experimental e o desenvolvimento colaborativo nas áreas de robótica, automação e sistemas embarcados.
+
+Contribuições, correções, adaptações e propostas de aperfeiçoamento são bem-vindas.
+
+O firmware é fornecido sem garantias, considerando sua natureza experimental e educacional. Sua utilização em sistemas físicos requer avaliação técnica, verificação das condições de segurança e validação adequada à aplicação pretendida.
+
+Para mais informações, consulte o arquivo [LICENSE](LICENSE) disponibilizado neste repositório.
